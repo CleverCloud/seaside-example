@@ -18,4 +18,4 @@ ADD . /home/deploy
 EXPOSE 8080
 
 CMD ./pharo Pharo.image ./deploy/startzinc.st
-#CMD bash
+

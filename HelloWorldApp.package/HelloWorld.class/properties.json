@@ -1,0 +1,14 @@
+{
+	"category" : "HelloWorldApp",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HelloWorld",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
