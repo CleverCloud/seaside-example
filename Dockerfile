@@ -13,10 +13,9 @@ RUN ./pharo Pharo.image eval "Gofer new \
     load. \
 ((Smalltalk at: #ConfigurationOfSeaside3) project version: #stable) load."
 
-RUN ls ./pharo-vm
-CMD echo pharo
 ADD . /home/deploy
 
 EXPOSE 8080
 
-ENTRYPOINT ./pharo Pharo.image eval "ZnServer startDefaultOn: 8080."
+CMD ./pharo Pharo.image startzinc.st
+#CMD bash
