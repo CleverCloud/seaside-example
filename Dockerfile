@@ -13,5 +13,6 @@ ADD . /home/deploy
 
 EXPOSE 8080
 
-CMD ./pharo Pharo.image ./deploy/startzinc.st
+#CMD ./pharo Pharo.image ./deploy/zinc.st
+CMD ./pharo Pharo.image ./deploy/seaside.st
 #CMD bash
