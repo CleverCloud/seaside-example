@@ -1,0 +1,14 @@
+{
+	"category" : "WebCounter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"count" ],
+	"name" : "WebCounter",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
