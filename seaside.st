@@ -9,3 +9,4 @@ FileStream stdout nextPutAll: 'WebCounter installed'; lf.
 
 ZnZincServerAdaptor startOn: 8080.
 WAAdmin register: WebCounter asApplicationAt: 'webcounter'.
+WAAdmin defaultDispatcher defaultName: 'WAWelcome'.
