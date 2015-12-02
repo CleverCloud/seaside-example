@@ -1,9 +1,9 @@
 Gofer it
-url: ‘filetree:///home/deploy’;
-package: ‘WebCounter’;
-package: ‘HelloWorldApp’;
+url: 'filetree:///home/deploy';
+package: 'WebCounter';
+package: 'HelloWorldApp';
 load.
-stdout << 'WebCounter installed'; lf.
+FileStream stdout << 'WebCounter installed'; lf.
 ZnZincServerAdaptor startOn: 8080.
-WAAdmin register: WebCounter asApplicationAt: 'webcounter’.
+WAAdmin register: WebCounter asApplicationAt: 'webcounter'.
 
